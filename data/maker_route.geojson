@@ -3,52 +3,89 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
-      "geometry": { "type": "Point", "coordinates": [-45.174011, -10.430293] }
+      "properties": {
+        "Local": "IFPI - Campus Corrente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-45.174011, -10.430293]
+      }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Local": "Posto de Combustivel Primavera"
+      },
+      "geometry": { "type": "Point", "coordinates": [-45.173788, -10.43876] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Local": "Praca Principal do Vermelhao"
+      },
       "geometry": { "type": "Point", "coordinates": [-45.17139, -10.454442] }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Local": "Supermercado Rocha"
+      },
       "geometry": { "type": "Point", "coordinates": [-45.16885, -10.439757] }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Local": "Praca da Igreja Batista"
+      },
       "geometry": { "type": "Point", "coordinates": [-45.16067, -10.443226] }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Local": "15 Regional de Educacao"
+      },
       "geometry": { "type": "Point", "coordinates": [-45.157011, -10.445605] }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Local": "Posto de Combustivel do Aeroporto"
+      },
       "geometry": { "type": "Point", "coordinates": [-45.146135, -10.451453] }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Local": "Escola Municipal Orley Cavalcante Pacheco"
+      },
       "geometry": { "type": "Point", "coordinates": [-45.13752, -10.454895] }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Local": "APAE"
+      },
       "geometry": { "type": "Point", "coordinates": [-45.160109, -10.441398] }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Local": "SAMU"
+      },
       "geometry": { "type": "Point", "coordinates": [-45.162392, -10.439058] }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Local": "Caixa D'Agua da Agespisa"
+      },
+      "geometry": { "type": "Point", "coordinates": [-45.162024, -10.436216] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Local": "Trevo da Entrada do Moro do Pequi"
+      },
       "geometry": { "type": "Point", "coordinates": [-45.161536, -10.429807] }
     }
   ]

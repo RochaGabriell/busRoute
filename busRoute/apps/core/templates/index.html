@@ -6,13 +6,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'img/bus-stop-pointer.png' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
     <title>Rota do Ônibus</title>
 </head>
 
 <body>
+    <div class="container">
+        <div class="wrapper_list_point">
+            <div class="schedules">
+                <h2>HORÁRIOS</h2>
+                <ul>
+                    <li>1º Horário: 05h:50 (previsão de retorno às 07h:00)</li>
+                    <li>2º Horário: 12h:20 (previsão de retorno às 13h:10)</li>
+                    <li>3º Horário: 17h:10 (previsão de retorno às 18:00h)</li>
+                    <li>4° Horário: 22h:05</li>
+                </ul>
+            </div>
+            <div class="route">
+                <h2 class="exit_route">TRAJETO SAÍDA DO IFPI</h2>
+                <ol>
+                    <li>1ª Parada: Posto de Combustível Primavera</li>
+                    <li>2ª Parada: Praça Principal do Vermelhão</li>
+                    <li>3ª Parada: Supermercado Rocha</li>
+                    <li>4ª Parada: Praça da Igreja Batista</li>
+                    <li>5ª Parada: 15ª Regional de Educação</li>
+                    <li>6ª Parada: Posto de Combustível do Aeroporto</li>
+                    <li>7ª Escola Municipal Orley Cavalcante Pacheco</li>
+                </ol>
 
-    {{map|safe}}
-
+                <h2 class="return_route">TRAJETO 02: RETORNO</h2>
+                <ol>
+                    <li>8ª Parada: 15ª Regional de Educação</li>
+                    <li>9ª Parada: APAE</li>
+                    <li>10ª Parada: SAMU</li>
+                    <li>11ª Parada: Caixa D'Água da Agespisa</li>
+                    <li>12ª Parada: Trevo da Entrada do Moro do Pequi</li>
+                    <li>13ª Parada: IFPI-Campus Corrente</li>
+                </ol>
+            </div>
+        </div>
+        <div class="wrapper_map">
+            {{map|safe}}
+        </div>
+    </div>
 </body>
 
 </html>
